@@ -1,0 +1,30 @@
+statement (C) at 27 centres, case t1_vecs.json: certificate mix_t1.npz, two-point degree 12/4, three-point degree 10; 1 count vectors
+PASS dmax exceeds sqrt 6
+PASS A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  [got t = 84.549794121, float t 84.549794120]
+  mixed typing: 15 groups, typings ["AABBBBF", "AABBBFF", "ABBBBBF", "ABBBBFF", "AABBBBB", "AABBBBF", "AABFFBF", "AABBBFF", "AABFFFF", "AAABBBF", "AABBBBF", "AABFFBF", "AABBBFF", "AABFFFF", "AAABBBF"]
+PASS three-point blocks positive definite (exact LDL^T)  [got 645 blocks]
+  point terms: A1: 0.408110, A2: 0.408089, B3: 0.357015, B4: 0.236807, B5: 0.236807, B6: 0.247592, F7: 0.146014
+  pair A1A1: float largest K + PAIR3 - Pi 5.815148e-02; threshold 5.815348e-02
+  pair A1B3: float largest K + PAIR3 - Pi 6.200086e-02; threshold 6.200287e-02
+  pair A1B5: float largest K + PAIR3 - Pi 7.109090e-02; threshold 7.109293e-02
+  pair B3B3: float largest K + PAIR3 - Pi 6.534660e-02; threshold 6.534860e-02
+  pair B3B5: float largest K + PAIR3 - Pi 7.364654e-02; threshold 7.364861e-02
+  pair B5B5: float largest K + PAIR3 - Pi 8.114084e-02; threshold 8.114285e-02
+  triple A1A1A1: float largest 2.712589e-03 on 649630 samples (refined 2.712624e-03); threshold 2.717624e-03; 756 monomials, symmetry 2
+  triple A1A1B3: float largest 2.570055e-03 on 649670 samples (refined 2.570446e-03); threshold 2.575446e-03; 756 monomials, symmetry 1
+  triple A1A1B5: float largest 2.219856e-03 on 649715 samples (refined 2.219921e-03); threshold 2.224921e-03; 756 monomials, symmetry 1
+  triple A1B3B3: float largest 2.459279e-03 on 649733 samples (refined 2.459523e-03); threshold 2.464523e-03; 756 monomials, symmetry 1
+  triple A1B3B5: float largest 2.126821e-03 on 649689 samples (refined 2.126871e-03); threshold 2.131871e-03; 756 monomials, symmetry 0
+  triple A1B5B5: float largest 1.821791e-03 on 649663 samples (refined 1.822158e-03); threshold 1.827158e-03; 756 monomials, symmetry 1
+  triple B3B3B3: float largest 2.437135e-03 on 649699 samples (refined 2.438191e-03); threshold 2.443191e-03; 756 monomials, symmetry 2
+  triple B3B3B5: float largest 2.059136e-03 on 649708 samples (refined 2.059143e-03); threshold 2.064143e-03; 756 monomials, symmetry 1
+  triple B3B5B5: float largest 1.797113e-03 on 649684 samples (refined 1.797143e-03); threshold 1.802143e-03; 756 monomials, symmetry 1
+  triple B5B5B5: float largest 2.641388e-03 on 649648 samples (refined 2.641390e-03); threshold 2.646390e-03; 756 monomials, symmetry 2
+      A1B3B5 level 10: 0 boxes verified, 936 to bisect [0 s]
+      A1B3B5 level 20: 65132 boxes verified, 534754 to bisect [220 s]
+      A1B3B5 level 30: 10529479 boxes verified, 1037376 to bisect [7191 s]
+PASS TRIPLE3_A1B3B5 <= c3 on the admissible triples  [got 11794293 boxes, largest centre value 2.1269e-03]
+  triple boxes in all: 11794293
+  1 count vectors, 1 type-count vectors; largest bound 3.065399 at (15, 0, 7, 0, 5, 0, 0)
+PASS largest bound over the count vectors below 9 pi^2/8 - 8  [got 3.065399 < [3.103304951225528446188802374860670027 +/- 2.80e-37]]
+PARTIAL (branch and bounds skipped, restricted or cut short; not a proof of the case): case t1_vecs.json, U(Y) <= 3.065399 against 9 pi^2/8 - 8 [7735 s]
