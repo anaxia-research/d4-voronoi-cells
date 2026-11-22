@@ -1,0 +1,120 @@
+statement (C) at 27 centres, case C1_vecs.json: certificate mix_C1.npz, two-point degree 12/4, three-point degree 10; 102 count vectors
+PASS dmax exceeds sqrt 6
+PASS A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  [got t = 55.895961301, float t 55.895961300]
+  mixed typing: 10 groups, typings ["AABBBBF", "AABBBFF", "ABBBBBF", "ABBBBFF", "AABBBBB", "AABBBBF", "AABBBFF", "AAABBBF", "AAABBFF", "AABBBBB"]
+PASS three-point blocks positive definite (exact LDL^T)  [got 430 blocks]
+  point terms: A1: 0.412454, A2: 0.412390, B3: 0.288918, B4: 0.165456, B5: 0.165456, B6: 0.133199, F7: 0.134130
+  pair A1A1: float largest K + PAIR3 - Pi 1.794190e-02; threshold 1.794391e-02
+  pair A1A2: float largest K + PAIR3 - Pi 1.794672e-02; threshold 1.794872e-02
+  pair A1B3: float largest K + PAIR3 - Pi 2.745961e-02; threshold 2.746166e-02
+  pair A1B4: float largest K + PAIR3 - Pi 3.692128e-02; threshold 3.692330e-02
+  pair A1B5: float largest K + PAIR3 - Pi 3.690683e-02; threshold 3.690902e-02
+  pair A1B6: float largest K + PAIR3 - Pi 3.905265e-02; threshold 3.905465e-02
+  pair A1F7: float largest K + PAIR3 - Pi 3.896225e-02; threshold 3.896425e-02
+  pair A2A2: float largest K + PAIR3 - Pi 1.795117e-02; threshold 1.795317e-02
+  pair A2B3: float largest K + PAIR3 - Pi 2.746357e-02; threshold 2.746557e-02
+  pair A2B4: float largest K + PAIR3 - Pi 3.692418e-02; threshold 3.692618e-02
+  pair A2B5: float largest K + PAIR3 - Pi 3.690594e-02; threshold 3.690794e-02
+  pair A2B6: float largest K + PAIR3 - Pi 3.901102e-02; threshold 3.901324e-02
+  pair A2F7: float largest K + PAIR3 - Pi 3.896570e-02; threshold 3.896770e-02
+  pair B3B3: float largest K + PAIR3 - Pi 3.595738e-02; threshold 3.595938e-02
+  pair B3B4: float largest K + PAIR3 - Pi 4.540912e-02; threshold 4.541119e-02
+  pair B3B5: float largest K + PAIR3 - Pi 4.538303e-02; threshold 4.538506e-02
+  pair B3B6: float largest K + PAIR3 - Pi 4.696516e-02; threshold 4.696738e-02
+  pair B3F7: float largest K + PAIR3 - Pi 4.656226e-02; threshold 4.656427e-02
+  pair B4B4: float largest K + PAIR3 - Pi 5.384607e-02; threshold 5.384807e-02
+  pair B4B5: float largest K + PAIR3 - Pi 5.380020e-02; threshold 5.380235e-02
+  pair B4B6: float largest K + PAIR3 - Pi 5.534628e-02; threshold 5.534965e-02
+  pair B4F7: float largest K + PAIR3 - Pi 5.343465e-02; threshold 5.343666e-02
+  pair B5B5: float largest K + PAIR3 - Pi 5.373648e-02; threshold 5.373848e-02
+  pair B5B6: float largest K + PAIR3 - Pi 5.527677e-02; threshold 5.528112e-02
+  pair B5F7: float largest K + PAIR3 - Pi 5.334859e-02; threshold 5.335103e-02
+  pair B6B6: float largest K + PAIR3 - Pi 5.733952e-02; threshold 5.734152e-02
+  pair B6F7: float largest K + PAIR3 - Pi 5.537117e-02; threshold 5.537419e-02
+  pair F7F7: float largest K + PAIR3 - Pi 5.549659e-02; threshold 5.549859e-02
+  triple A1A1A1: float largest 2.782017e-03 on 649630 samples (refined 2.782076e-03); threshold 2.787076e-03; 756 monomials, symmetry 2
+  triple A1A1A2: float largest 2.781834e-03 on 649656 samples (refined 2.781900e-03); threshold 2.786900e-03; 756 monomials, symmetry 1
+  triple A1A1B3: float largest 2.409633e-03 on 649670 samples (refined 2.409681e-03); threshold 2.414681e-03; 756 monomials, symmetry 1
+  triple A1A1B4: float largest 2.044934e-03 on 649713 samples (refined 2.044995e-03); threshold 2.049995e-03; 756 monomials, symmetry 1
+  triple A1A1B5: float largest 2.044893e-03 on 649715 samples (refined 2.044995e-03); threshold 2.049995e-03; 756 monomials, symmetry 1
+  triple A1A1B6: float largest 1.973578e-03 on 649656 samples (refined 1.973605e-03); threshold 1.978605e-03; 756 monomials, symmetry 1
+  triple A1A1F7: float largest 1.986439e-03 on 649582 samples (refined 1.986552e-03); threshold 1.991552e-03; 756 monomials, symmetry 1
+  triple A1A2A2: float largest 2.781702e-03 on 649686 samples (refined 2.781737e-03); threshold 2.786737e-03; 756 monomials, symmetry 1
+  triple A1A2B3: float largest 2.409445e-03 on 649700 samples (refined 2.409505e-03); threshold 2.414505e-03; 756 monomials, symmetry 0
+  triple A1A2B4: float largest 2.044785e-03 on 649708 samples (refined 2.044917e-03); threshold 2.049917e-03; 756 monomials, symmetry 0
+  triple A1A2B5: float largest 2.044865e-03 on 649711 samples (refined 2.044917e-03); threshold 2.049917e-03; 756 monomials, symmetry 0
+  triple A1A2B6: float largest 1.973418e-03 on 649663 samples (refined 1.973437e-03); threshold 1.978437e-03; 756 monomials, symmetry 0
+  triple A1A2F7: float largest 1.986391e-03 on 649588 samples (refined 1.986402e-03); threshold 1.991402e-03; 756 monomials, symmetry 0
+  triple A1B3B3: float largest 2.082954e-03 on 649733 samples (refined 2.082956e-03); threshold 2.087956e-03; 756 monomials, symmetry 1
+  triple A1B3B4: float largest 1.713291e-03 on 649707 samples (refined 1.713305e-03); threshold 1.718305e-03; 756 monomials, symmetry 0
+  triple A1B3B5: float largest 1.713236e-03 on 649689 samples (refined 1.713356e-03); threshold 1.718356e-03; 756 monomials, symmetry 0
+  triple A1B3B6: float largest 1.663676e-03 on 649652 samples (refined 1.663795e-03); threshold 1.668795e-03; 756 monomials, symmetry 0
+  triple A1B3F7: float largest 1.688668e-03 on 649545 samples (refined 1.688881e-03); threshold 1.693881e-03; 756 monomials, symmetry 0
+  triple A1B4B4: float largest 1.390654e-03 on 649702 samples (refined 1.390903e-03); threshold 1.395903e-03; 756 monomials, symmetry 1
+  triple A1B4B5: float largest 1.390727e-03 on 649700 samples (refined 1.390903e-03); threshold 1.395903e-03; 756 monomials, symmetry 0
+  triple A1B4B6: float largest 1.339326e-03 on 649635 samples (refined 1.340269e-03); threshold 1.345269e-03; 756 monomials, symmetry 0
+  triple A1B4F7: float largest 1.425173e-03 on 649527 samples (refined 1.425552e-03); threshold 1.430552e-03; 756 monomials, symmetry 0
+  triple A1B5B5: float largest 1.390638e-03 on 649663 samples (refined 1.390903e-03); threshold 1.395903e-03; 756 monomials, symmetry 1
+  triple A1B5B6: float largest 1.339904e-03 on 649626 samples (refined 1.340269e-03); threshold 1.345269e-03; 756 monomials, symmetry 0
+  triple A1B5F7: float largest 1.425308e-03 on 649520 samples (refined 1.425552e-03); threshold 1.430552e-03; 756 monomials, symmetry 0
+  triple A1B6B6: float largest 1.269210e-03 on 649540 samples (refined 1.269543e-03); threshold 1.274543e-03; 756 monomials, symmetry 1
+  triple A1B6F7: float largest 1.354583e-03 on 649394 samples (refined 1.354659e-03); threshold 1.359659e-03; 756 monomials, symmetry 0
+  triple A1F7F7: float largest 1.363509e-03 on 649315 samples (refined 1.364320e-03); threshold 1.369320e-03; 756 monomials, symmetry 1
+  triple A2A2A2: float largest 2.781609e-03 on 649660 samples (refined 2.781609e-03); threshold 2.786609e-03; 756 monomials, symmetry 2
+  triple A2A2B3: float largest 2.410009e-03 on 649720 samples (refined 2.410012e-03); threshold 2.415012e-03; 756 monomials, symmetry 1
+  triple A2A2B4: float largest 2.044826e-03 on 649704 samples (refined 2.044850e-03); threshold 2.049850e-03; 756 monomials, symmetry 1
+  triple A2A2B5: float largest 2.044797e-03 on 649705 samples (refined 2.044850e-03); threshold 2.049850e-03; 756 monomials, symmetry 1
+  triple A2A2B6: float largest 1.973258e-03 on 649656 samples (refined 1.973280e-03); threshold 1.978280e-03; 756 monomials, symmetry 1
+  triple A2A2F7: float largest 1.986200e-03 on 649567 samples (refined 1.986267e-03); threshold 1.991267e-03; 756 monomials, symmetry 1
+  triple A2B3B3: float largest 2.099227e-03 on 649724 samples (refined 2.099227e-03); threshold 2.104227e-03; 756 monomials, symmetry 1
+  triple A2B3B4: float largest 1.713075e-03 on 649698 samples (refined 1.713120e-03); threshold 1.718120e-03; 756 monomials, symmetry 0
+  triple A2B3B5: float largest 1.713076e-03 on 649705 samples (refined 1.713156e-03); threshold 1.718156e-03; 756 monomials, symmetry 0
+  triple A2B3B6: float largest 1.663444e-03 on 649636 samples (refined 1.663643e-03); threshold 1.668643e-03; 756 monomials, symmetry 0
+  triple A2B3F7: float largest 1.688353e-03 on 649521 samples (refined 1.688712e-03); threshold 1.693712e-03; 756 monomials, symmetry 0
+  triple A2B4B4: float largest 1.390613e-03 on 649720 samples (refined 1.390751e-03); threshold 1.395751e-03; 756 monomials, symmetry 1
+  triple A2B4B5: float largest 1.390396e-03 on 649689 samples (refined 1.390751e-03); threshold 1.395751e-03; 756 monomials, symmetry 0
+  triple A2B4B6: float largest 1.339981e-03 on 649613 samples (refined 1.340113e-03); threshold 1.345113e-03; 756 monomials, symmetry 0
+  triple A2B4F7: float largest 1.425017e-03 on 649539 samples (refined 1.425214e-03); threshold 1.430214e-03; 756 monomials, symmetry 0
+  triple A2B5B5: float largest 1.390717e-03 on 649696 samples (refined 1.390751e-03); threshold 1.395751e-03; 756 monomials, symmetry 1
+  triple A2B5B6: float largest 1.339510e-03 on 649621 samples (refined 1.340113e-03); threshold 1.345113e-03; 756 monomials, symmetry 0
+  triple A2B5F7: float largest 1.425201e-03 on 649514 samples (refined 1.425385e-03); threshold 1.430385e-03; 756 monomials, symmetry 0
+  triple A2B6B6: float largest 1.269273e-03 on 649516 samples (refined 1.269425e-03); threshold 1.274425e-03; 756 monomials, symmetry 1
+  triple A2B6F7: float largest 1.354498e-03 on 649349 samples (refined 1.355515e-03); threshold 1.360515e-03; 756 monomials, symmetry 0
+  triple A2F7F7: float largest 1.363602e-03 on 649302 samples (refined 1.367501e-03); threshold 1.372501e-03; 756 monomials, symmetry 1
+  triple B3B3B3: float largest 1.857599e-03 on 649699 samples (refined 1.858106e-03); threshold 1.863106e-03; 756 monomials, symmetry 2
+  triple B3B3B4: float largest 1.433066e-03 on 649694 samples (refined 1.434494e-03); threshold 1.439494e-03; 756 monomials, symmetry 1
+  triple B3B3B5: float largest 1.433969e-03 on 649708 samples (refined 1.434494e-03); threshold 1.439494e-03; 756 monomials, symmetry 1
+  triple B3B3B6: float largest 1.390423e-03 on 649610 samples (refined 1.390434e-03); threshold 1.395434e-03; 756 monomials, symmetry 1
+  triple B3B3F7: float largest 1.431827e-03 on 649536 samples (refined 1.431908e-03); threshold 1.436908e-03; 756 monomials, symmetry 1
+  triple B3B4B4: float largest 1.097308e-03 on 649722 samples (refined 1.097324e-03); threshold 1.102324e-03; 756 monomials, symmetry 1
+  triple B3B4B5: float largest 1.097301e-03 on 649707 samples (refined 1.097324e-03); threshold 1.102324e-03; 756 monomials, symmetry 0
+  triple B3B4B6: float largest 1.067221e-03 on 649608 samples (refined 1.067290e-03); threshold 1.072290e-03; 756 monomials, symmetry 0
+  triple B3B4F7: float largest 1.167428e-03 on 649534 samples (refined 1.167996e-03); threshold 1.172996e-03; 756 monomials, symmetry 0
+  triple B3B5B5: float largest 1.097302e-03 on 649684 samples (refined 1.097324e-03); threshold 1.102324e-03; 756 monomials, symmetry 1
+  triple B3B5B6: float largest 1.067148e-03 on 649591 samples (refined 1.067290e-03); threshold 1.072290e-03; 756 monomials, symmetry 0
+  triple B3B5F7: float largest 1.167249e-03 on 649485 samples (refined 1.167996e-03); threshold 1.172996e-03; 756 monomials, symmetry 0
+  triple B3B6B6: float largest 1.027926e-03 on 649417 samples (refined 1.027983e-03); threshold 1.032983e-03; 756 monomials, symmetry 1
+  triple B3B6F7: float largest 1.127658e-03 on 649336 samples (refined 1.127689e-03); threshold 1.132689e-03; 756 monomials, symmetry 0
+  triple B3F7F7: float largest 1.158802e-03 on 649262 samples (refined 1.158806e-03); threshold 1.163806e-03; 756 monomials, symmetry 1
+  triple B4B4B4: float largest 8.130427e-04 on 649714 samples (refined 8.130574e-04); threshold 8.180574e-04; 756 monomials, symmetry 2
+  triple B4B4B5: float largest 8.130515e-04 on 649671 samples (refined 8.130574e-04); threshold 8.180574e-04; 756 monomials, symmetry 1
+  triple B4B4B6: float largest 7.836126e-04 on 649604 samples (refined 7.836436e-04); threshold 7.886436e-04; 756 monomials, symmetry 1
+  triple B4B4F7: float largest 9.447312e-04 on 649477 samples (refined 9.447353e-04); threshold 9.497353e-04; 756 monomials, symmetry 1
+  triple B4B5B5: float largest 8.130395e-04 on 649650 samples (refined 8.130574e-04); threshold 8.180574e-04; 756 monomials, symmetry 1
+  triple B4B5B6: float largest 7.835870e-04 on 649560 samples (refined 7.836436e-04); threshold 7.886436e-04; 756 monomials, symmetry 0
+  triple B4B5F7: float largest 9.447308e-04 on 649443 samples (refined 9.447353e-04); threshold 9.497353e-04; 756 monomials, symmetry 0
+  triple B4B6B6: float largest 7.457047e-04 on 649363 samples (refined 7.457344e-04); threshold 7.507344e-04; 756 monomials, symmetry 1
+  triple B4B6F7: float largest 9.053509e-04 on 649325 samples (refined 9.055082e-04); threshold 9.105082e-04; 756 monomials, symmetry 0
+  triple B4F7F7: float largest 1.035692e-03 on 649176 samples (refined 1.036103e-03); threshold 1.041103e-03; 756 monomials, symmetry 1
+  triple B5B5B6: float largest 7.837271e-04 on 649509 samples (refined 7.839926e-04); threshold 7.889926e-04; 756 monomials, symmetry 1
+  triple B5B5F7: float largest 9.447114e-04 on 649415 samples (refined 9.447353e-04); threshold 9.497353e-04; 756 monomials, symmetry 1
+  triple B5B6B6: float largest 7.457078e-04 on 649359 samples (refined 7.457344e-04); threshold 7.507344e-04; 756 monomials, symmetry 1
+  triple B5B6F7: float largest 9.054891e-04 on 649277 samples (refined 9.055082e-04); threshold 9.105082e-04; 756 monomials, symmetry 0
+  triple B5F7F7: float largest 1.035115e-03 on 649155 samples (refined 1.036103e-03); threshold 1.041103e-03; 756 monomials, symmetry 1
+  triple B6B6B6: float largest 9.463162e-04 on 649325 samples (refined 9.464013e-04); threshold 9.514013e-04; 756 monomials, symmetry 2
+  triple B6B6F7: float largest 1.106107e-03 on 649158 samples (refined 1.106251e-03); threshold 1.111251e-03; 756 monomials, symmetry 1
+  triple B6F7F7: float largest 1.231091e-03 on 649009 samples (refined 1.231176e-03); threshold 1.236176e-03; 756 monomials, symmetry 1
+  triple boxes in all: 0
+  102 count vectors, 102 type-count vectors; largest bound 3.099072 at (16, 1, 5, 1, 0, 3, 1)
+PASS largest bound over the count vectors below 9 pi^2/8 - 8  [got 3.099072 < [3.103304951225528446188802374860670027 +/- 2.80e-37]]
+PARTIAL (branch and bounds skipped, restricted or cut short; not a proof of the case): case C1_vecs.json, U(Y) <= 3.099072 against 9 pi^2/8 - 8 [329 s]
