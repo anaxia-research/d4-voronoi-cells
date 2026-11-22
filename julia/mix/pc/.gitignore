@@ -1,0 +1,6 @@
+logs/
+status.txt
+N.txt
+queue_out*.txt
+queue_err*.txt
+jobs_rev*.txt

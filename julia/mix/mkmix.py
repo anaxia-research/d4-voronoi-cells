@@ -1,5 +1,5 @@
 import numpy as np, json, sys
-import os; R=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','data','combo')+os.sep
+R='/home/user/d4-voronoi-cells/julia/data/combo/'
 names=[l.strip() for l in open('certs.txt') if l.strip()]
 cases=json.load(open('certcases.json')); mt=json.load(open('certmt.json'))
 def tmap(nm):
