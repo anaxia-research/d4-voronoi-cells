@@ -3,7 +3,7 @@
 # Each line: certificate.npz vectors.json KIND   (KIND = PAIRS or a triple kind such as A1A2B4)
 # The jobs file and mix/pc/N.txt (if present) are read again every loop, so jobs can be added
 # and N changed without a restart. A job whose log shows its PASS line is done. A job whose log
-# has no PASS or FAIL line but was written in the last 3 hours is taken to be running already
+# has no PASS or FAIL line but was written in the last 8 hours is taken to be running already
 # (for example by an earlier queue process) and is left alone.
 const PC = @__DIR__
 const M = dirname(PC)
@@ -19,7 +19,7 @@ failed(j) = occursin(r"\bFAIL", logtext(j))
 readjobs() = [String.(split(l)) for l in readlines(JF) if !isempty(strip(l))]
 getN() = (f = joinpath(PC, "N.txt"); isfile(f) ? parse(Int, strip(read(f, String))) : N0)
 running = Any[]; bad = Set{String}(); t0 = time()
-ext(j) = isfile(logf(j)) && !passed(j) && !failed(j) && time() - mtime(logf(j)) < 3*3600
+ext(j) = isfile(logf(j)) && !passed(j) && !failed(j) && time() - mtime(logf(j)) < 8*3600
 mine(j) = any(r -> r[2] == j, running)
 while true
     for r in copy(running)
