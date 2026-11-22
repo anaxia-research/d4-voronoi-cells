@@ -1,0 +1,47 @@
+statement (C) at 27 centres, case case_t1.json: certificate mix_t1.npz, two-point degree 12/4, three-point degree 10; 1 count vectors
+PASS dmax exceeds sqrt 6
+PASS A_1..A_D and [[A_0, z], [z^T, t]] positive semidefinite (exact LDL^T)  [got t = 84.549794121, float t 84.549794120]
+  mixed typing: 15 groups, typings ["AABBBBF", "AABBBFF", "ABBBBBF", "ABBBBFF", "AABBBBB", "AABBBBF", "AABFFBF", "AABBBFF", "AABFFFF", "AAABBBF", "AABBBBF", "AABFFBF", "AABBBFF", "AABFFFF", "AAABBBF"]
+PASS three-point blocks positive definite (exact LDL^T)  [got 645 blocks]
+  point terms: A1: 0.408110, A2: 0.408089, B3: 0.357015, B4: 0.236807, B5: 0.236807, B6: 0.247592, F7: 0.146014
+  pair A1A1: float largest K + PAIR3 - Pi 5.815148e-02; threshold 5.815348e-02
+  pair A1B3: float largest K + PAIR3 - Pi 6.200086e-02; threshold 6.200287e-02
+  pair A1B5: float largest K + PAIR3 - Pi 7.109090e-02; threshold 7.109293e-02
+  pair B3B3: float largest K + PAIR3 - Pi 6.534660e-02; threshold 6.534860e-02
+  pair B3B5: float largest K + PAIR3 - Pi 7.364654e-02; threshold 7.364861e-02
+  pair B5B5: float largest K + PAIR3 - Pi 8.114084e-02; threshold 8.114285e-02
+PASS K + PAIR3_A1A1 <= Pi + c2 on the admissible pairs  [got 605950 boxes closed, 465562 set aside, Pi in Arb at 605937 corners]
+PASS K + PAIR3_A1B3 <= Pi + c2 on the admissible pairs  [got 8309 boxes closed, 6976 set aside, Pi in Arb at 8235 corners]
+PASS K + PAIR3_A1B5 <= Pi + c2 on the admissible pairs  [got 437 boxes closed, 350 set aside, Pi in Arb at 299 corners]
+PASS K + PAIR3_B3B3 <= Pi + c2 on the admissible pairs  [got 9473 boxes closed, 9190 set aside, Pi in Arb at 9026 corners]
+PASS K + PAIR3_B3B5 <= Pi + c2 on the admissible pairs  [got 235 boxes closed, 155 set aside, Pi in Arb at 19 corners]
+PASS K + PAIR3_B5B5 <= Pi + c2 on the admissible pairs  [got 97 boxes closed, 70 set aside, Pi in Arb at 0 corners]
+PASS f <= m_b on every bin  [got 416 intervals, least room 3.26e-09]
+  triple A1A1A1: float largest 2.712589e-03 on 649630 samples (refined 2.712624e-03); threshold 2.717624e-03; 756 monomials, symmetry 2
+  triple A1A1B3: float largest 2.570055e-03 on 649670 samples (refined 2.570446e-03); threshold 2.575446e-03; 756 monomials, symmetry 1
+  triple A1A1B5: float largest 2.219856e-03 on 649715 samples (refined 2.219921e-03); threshold 2.224921e-03; 756 monomials, symmetry 1
+  triple A1B3B3: float largest 2.459279e-03 on 649733 samples (refined 2.459523e-03); threshold 2.464523e-03; 756 monomials, symmetry 1
+  triple A1B3B5: float largest 2.126821e-03 on 649689 samples (refined 2.126871e-03); threshold 2.131871e-03; 756 monomials, symmetry 0
+  triple A1B5B5: float largest 1.821791e-03 on 649663 samples (refined 1.822158e-03); threshold 1.827158e-03; 756 monomials, symmetry 1
+  triple B3B3B3: float largest 2.437135e-03 on 649699 samples (refined 2.438191e-03); threshold 2.443191e-03; 756 monomials, symmetry 2
+  triple B3B3B5: float largest 2.059136e-03 on 649708 samples (refined 2.059143e-03); threshold 2.064143e-03; 756 monomials, symmetry 1
+  triple B3B5B5: float largest 1.797113e-03 on 649684 samples (refined 1.797143e-03); threshold 1.802143e-03; 756 monomials, symmetry 1
+  triple B5B5B5: float largest 2.641388e-03 on 649648 samples (refined 2.641390e-03); threshold 2.646390e-03; 756 monomials, symmetry 2
+      A1A1A1 level 10: 0 boxes verified, 328 to bisect [0 s]
+      A1A1A1 level 20: 12039 boxes verified, 95454 to bisect [35 s]
+      A1A1A1 level 30: 2053065 boxes verified, 1297234 to bisect [1653 s]
+PASS TRIPLE3_A1A1A1 <= c3 on the admissible triples  [got 4365014 boxes, largest centre value 2.7125e-03]
+      A1A1B3 level 10: 0 boxes verified, 606 to bisect [0 s]
+      A1A1B3 level 20: 33247 boxes verified, 266044 to bisect [105 s]
+      A1A1B3 level 30: 5913405 boxes verified, 2161146 to bisect [4634 s]
+PASS TRIPLE3_A1A1B3 <= c3 on the admissible triples  [got 8702484 boxes, largest centre value 2.5704e-03]
+      A1A1B5 level 10: 0 boxes verified, 612 to bisect [0 s]
+      A1A1B5 level 20: 33470 boxes verified, 277268 to bisect [106 s]
+      A1A1B5 level 30: 5770823 boxes verified, 1098906 to bisect [3821 s]
+PASS TRIPLE3_A1A1B5 <= c3 on the admissible triples  [got 7334117 boxes, largest centre value 2.2199e-03]
+      A1B3B3 level 10: 0 boxes verified, 614 to bisect [0 s]
+      A1B3B3 level 20: 33815 boxes verified, 262804 to bisect [104 s]
+      A1B3B3 level 30: 5721693 boxes verified, 902812 to bisect [3822 s]
+PASS TRIPLE3_A1B3B3 <= c3 on the admissible triples  [got 6861302 boxes, largest centre value 2.4580e-03]
+      A1B3B5 level 10: 0 boxes verified, 936 to bisect [0 s]
+      A1B3B5 level 20: 65132 boxes verified, 534754 to bisect [193 s]
