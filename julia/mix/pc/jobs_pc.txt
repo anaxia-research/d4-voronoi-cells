@@ -28,9 +28,6 @@ mix_g1.npz g1_vecs.json A2B3B6
 mix_g1.npz g1_vecs.json A2B4B4
 mix_g1.npz g1_vecs.json A2B4B5
 mix_g1.npz g1_vecs.json A2B4B6
-mix_g1.npz g1_vecs.json A2B5B5
-mix_g1.npz g1_vecs.json A2B5B6
-mix_g1.npz g1_vecs.json A2B6B6
 mix_g1.npz g1_vecs.json B3B3B3
 mix_g1.npz g1_vecs.json B3B3B4
 mix_g1.npz g1_vecs.json B3B3B5
