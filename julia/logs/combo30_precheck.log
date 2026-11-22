@@ -22,4 +22,4 @@ PASS three-point blocks positive definite (exact LDL^T)  [got 35 blocks]
   5 count vectors, 3 type-count vectors; largest bound 3.087203 at (22, 1, 1, 0, 6)
 PASS largest bound over the count vectors below 9 pi^2/8 - 8  [got 3.087203 < [3.103304951225528446188802374860670027 +/- 2.80e-37]]
 PASS bound agrees with the Python log (thresholds are sampled independently, tolerance 2.0e-5)  [got 3.087203; expected 3.087203]
-PARTIAL (branch and bounds skipped, restricted or cut short; not a proof of the case): case thm:count30 residual, U(Y) <= 3.087203 against 9 pi^2/8 - 8 [23 s]
+PARTIAL (branch and bounds skipped, restricted or cut short; not a proof of the case): case thm:count30 residual, U(Y) <= 3.087203 against 9 pi^2/8 - 8 [22 s]

@@ -1,10 +1,10 @@
 # Build the columns of the mixing programme: every proved 27-centre certificate, as a function
 # of the seven bins (one type per bin), sampled on pairs and triples of bins.
-include("/home/user/d4-voronoi-cells/julia/src/D4Checks.jl")
+include(joinpath(@__DIR__, "..", "src", "D4Checks.jl"))
 using .D4Checks
 const C = D4Checks.Combo
 using NPZ, JSON, Random, Printf, LinearAlgebra
-const R = "/home/user/d4-voronoi-cells/julia/data"
+const R = joinpath(@__DIR__, "..", "data")
 const EDGES = [2.0, 2.0161, 2.05, 2.1, 2.15, 2.2, 2.35, sqrt(6.0)]
 const D3 = 10
 names = [l for l in readlines(joinpath(@__DIR__, "certs.txt")) if !isempty(l)]
